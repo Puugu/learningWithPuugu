@@ -26,15 +26,6 @@ h2{
     font-family: "Kavivanar";
 }
 
-button{
-    outline: none;
-    border: none;
-    color: #e2620d;
-    background-color: inherit;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
 hr{
     border: 0; 
     height: 1px; 
@@ -42,6 +33,31 @@ hr{
     background-image: -moz-linear-gradient(left, #3a2e23, #e2620d, #3a2e23);
     background-image: -ms-linear-gradient(left, #3a2e23, #e2620d, #3a2e23);
     background-image: -o-linear-gradient(left, #3a2e23, #e2620d, #3a2e23);
+}
+
+a{
+    color:inherit;
+    font-size: 150%;
+}
+
+.navBut{
+    outline: none;
+    border: none;
+    color: #e2620d;
+    background-color: inherit;
+    letter-spacing: 1px;
+    display: inline-block;
+    font: 700 13.3333px Arial;
+    padding: 1px 6px;
+}
+
+.footerNote{
+    display: inline-block;
+    width: 33%;
+}
+
+.socialIcon{
+    padding: 0px 10px;
 }
 
 #navBar{
@@ -65,10 +81,11 @@ hr{
     margin-top: 10px;
 }
 
-#updateDate{
-    float: right;
+#externalIcons{
+    margin: auto;
+    text-align: center;
 }
 
-#websiteBy{
-    float: left;
+#updateDate{
+    text-align: right;
 }
