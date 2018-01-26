@@ -1,0 +1,74 @@
+/* CSS file for Learning with Puugu */
+
+html {
+    height:100%;
+    width: 100%;
+}
+
+body{
+    background-color: #232323;
+    margin: 0;
+    color: #fffff0;
+    height: 100%;
+    font-family: "Titillium Web";
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    background-color: #e2620d;
+    color: #fffff0;
+    padding: 15px;
+    font-family: "Kavivanar";
+}
+
+h2{
+    font-family: "Kavivanar";
+}
+
+button{
+    outline: none;
+    border: none;
+    color: #e2620d;
+    background-color: inherit;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+hr{
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #3a2e23, #e2620d, #3a2e23);
+    background-image: -moz-linear-gradient(left, #3a2e23, #e2620d, #3a2e23);
+    background-image: -ms-linear-gradient(left, #3a2e23, #e2620d, #3a2e23);
+    background-image: -o-linear-gradient(left, #3a2e23, #e2620d, #3a2e23);
+}
+
+#navBar{
+    background-color: #fffff0;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+}
+
+#content{
+    margin: 0 auto;
+    width: 70%;
+    border: 4px solid #e2620d;
+    padding: 10px;
+}
+
+#footer{
+    color: #e2620d;
+    background-color: #fffff0;
+    overflow: hidden;
+    padding: 2px 5px;
+    margin-top: 10px;
+}
+
+#updateDate{
+    float: right;
+}
+
+#websiteBy{
+    float: left;
+}
