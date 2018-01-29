@@ -20,11 +20,34 @@ I really need to shut the fuck up and listen to him.
 
 	<div id="navBar">
 		<!-- Need to make the navBar responsive -->
-		<div class="navBut" id="homeBut">Home</div>
+		<div class="dropDown">
+			<button class="navBut" id="homeBut">
+				<a class="navLink" href="#">Home</a>
+			</button>
+		</div>
 		<!-- Everything from here down will go on the left of the nav bar -->
-		<div class="navBut" id="aboutBut">About</div>
-		<div class="navBut" id="projBut">Projects</div>
-		<div class="navBut" id="contactBut">Contact</div>
+		<div class="dropDown">
+			<button class="navBut" id="aboutBut">About</button>
+			<ul  class="navDropDown" id="aboutMenu">
+				<li><a href="">About 1</a></li>
+			</ul>
+		</div>
+		<div class="dropDown">
+			<button class="navBut" id="projBut">Projects</button>
+			<ul class="navDropDown" id="projectMenu">
+				<li><a class="navLink" href="">Project 1</a></li>
+				<li><a class="navLink" href="">Project 2</a></li>
+				<li><a class="navLink" href="">Project 3</a></li>
+			</ul>
+		</div>
+		<div class="dropDown">
+			<button class="navBut" id="contactBut">Contact</button>
+			<ul class="navDropDown" id="contactMenu">
+				<li><a href="">Dropdown 1</a></li>
+				<li><a href="">Dropdown 2</a></li>
+				<li><a href="">Dropdown 3</a></li>
+			</ul>
+		</div>
 	</div>
 
 	<div id="content">
@@ -45,6 +68,6 @@ I really need to shut the fuck up and listen to him.
 			<a class="socialIcon" href="linkedin.com/in/courtney-kirkham-6626a0106"><i class="icon-linkedin"></i></a>
 			<a class="socialIcon" href="https://twitter.com/TheRealCKirkham"><i class="icon-twitter"></i></a>
 		</div>
-		<div class="footerNote" id="updateDate">Last Update: 26 Jan 2018</div>
+		<div class="footerNote" id="updateDate">Last Update: 29 Jan 2018</div>
 	</div>
 </body>

@@ -36,8 +36,8 @@ hr{
 }
 
 a{
-    color:inherit;
-    font-size: 150%;
+    color: #e2620d;
+    text-decoration: none;
 }
 
 .navBut{
@@ -48,7 +48,8 @@ a{
     letter-spacing: 1px;
     display: inline-block;
     font: 700 13.3333px Arial;
-    padding: 1px 6px;
+    padding: 10px 15px;
+    height: 100%;
 }
 
 .footerNote{
@@ -58,11 +59,25 @@ a{
 
 .socialIcon{
     padding: 0px 10px;
+    color:inherit;
+    font-size: 150%;
+}
+
+.dropDown{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    outline: none;
+    border: none;
+    color: #e2620d;
+    background-color: inherit;
+    letter-spacing: 1px;
+    font: 700 13.3333px Arial;
+    padding: 10px 15px;
 }
 
 #navBar{
     background-color: #fffff0;
-    padding: 8px 15px;
     margin-bottom: 10px;
 }
 
@@ -88,4 +103,24 @@ a{
 
 #updateDate{
     text-align: right;
+}
+
+.dropDown .navDropDown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+.navDropDown li{
+    color: #e2620d;
+    background-color: #fffff0;
+    font-size: 13.333px;
+    border-top: 1px solid #e2620d;
+    text-align: center;
+    padding: 3px 0;
+    display: none;
 }
